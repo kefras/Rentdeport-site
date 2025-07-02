@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rentdeport – Kefas Etiku</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ========== NAV ========= -->
+  <header class="nav">
+    <div class="container nav__content">
+      <img src="mylogo.jpg.png" alt="Rentdeport Logo" class="logo__img" weidth="150" height="150">
+      <h1><a class="logo" href="#">RENTDEPORT</a></h1>
+      <nav id="nav-menu">
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#rconnect">RConnect</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="hamburger" aria-label="Open menu"></button>
+    </div>
+  </header>
+  <header>
+    <div class="container">
+      <img src="ceo.jpg.jpeg" alt="Kefas Etiku Logo" class="logo__img" width="150" height="150">
+      <h1 class="logo">KEFAS ETIKU FRANCIS</h1>
+      <p>Managing Director, RENTDEPORT</p>
+      <p>Welcome to Rentdeport, where we make renting a house easy and stress-free.</p>
+      <p>With verified listings, trusted agents, and a unique roommate matching service, we're here to transform your renting experience.</p>
+      <p>Join us in making renting a house as simple as it should be.</p>
+    </div>
+  </header>
+    </body>
+  <!-- ========== HERO ========= -->
+  <section class="hero">
+    <div class="container hero__content">
+      <h1>Renting a house<br>shouldn’t be this hard.</h1>
+      <p>Verified listings, trusted agents, and an easy way to split rent.</p>
+      <a href="#rconnect" class="btn btn--primary">Try RConnect</a>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========= -->
+  <section id="about" class="about section">
+    <div class="container grid-2">
+      <div class="about__text">
+        <h2>Our Story</h2>
+        <p>About a year ago we started Rentdeport with one simple belief: <strong>“Renting a house shouldn’t be this hard.”</strong></p>
+        <p>We’ve watched friends lose money to fake agents, stay stuck in cities they don’t like, and struggle to find roommates. So we built a platform that changes that.</p>
+      </div>
+      <img src="pic3.jpg.jpg"Modern apartment" class="about__img" width="200" height="200">
+      <img src="pic4.jpg.jpg"Modern apartment" class="about__img" width="200" height="200">
+      <img src="pic5.jpg.jpg"Modern apartment" class="about__img" width="200" height="200">
+      <img src="pic6.jpg.jpg"Modern apartment" class="about__img" width="200" height="200">
+      <img src="pic1.jpg.jpg"Modern apartment" class="about__img" width="200" height="200">
+    
+    </div>
+  </section>
+
+  <!-- ========== FEATURES ========= -->
+  <section id="features" class="features section">
+    <div class="container">
+      <h2 class="center">Why Rentdeport?</h2>
+      <div class="features__grid">
+        <div class="card">
+          <h3>✅ Verified Agents &amp; Landlords</h3>
+          <p>Every listing is manually screened to keep scammers out.</p>
+        </div>
+        <div class="card">
+          <h3>✅ Stress-Free Search</h3>
+          <p>Smart filters for price, location, and amenities—find a place in minutes.</p>
+        </div>
+        <div class="card">
+          <h3>✅ Transparent Payments</h3>
+          <p>No hidden fees. Pay rent securely through the platform.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RCONNECT ========= -->
+  <section id="rconnect" class="rconnect section section--alt">
+    <div class="container grid-2">
+      <img src="pic11.jpg.jpg" alt="Roommates" class="rconnect__img">
+      <img src="pic12.jpg.jpg" alt="Roommates" class="rconnect__img">
+      <img src="pic13.jpg.jpg" alt="Roommates" class="rconnect
+      <div class="rconnect__text">
+        <h2>Meet <span class="accent">RConnect</span></h2>
+        <ul class="tick-list">
+          <li>Find a flatmate/roommate who matches your lifestyle</li>
+          <li>List your spare room in minutes</li>
+          <li>Split rent with someone in your budget range</li>
+        </ul>
+        <a href="#" class="btn btn--secondary">Get Started Free</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CALL TO ACTION ========= -->
+  <section class="cta">
+    <div class="container cta__content center">
+      <h2>Ready to make renting stress-free?</h2>
+      <a href="#contact" class="btn btn--primary">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT / FOOTER ========= -->
+  <footer id="contact" class="footer">
+    <div class="container footer__grid">
+      <div>
+        <h3>Rentdeport</h3>
+        <p>Lagos • Abuja • Port Harcourt</p>
+        <p>Email: hello@rentdeport.com</p>
+      </div>
+      <form class="footer__form" onsubmit="event.preventDefault(); alert('Message sent!');">
+        <h3>Send us a message</h3>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea rows="4" placeholder="How can we help?" required></textarea>
+        <button class="btn btn--secondary">Send</button>
+      </form>
+    </div>
+    <p class="center copyright">© <span id="year"></span> Rentdeport. All rights reserved.</p>
+  </footer>
+<script src="script.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
